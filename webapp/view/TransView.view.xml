@@ -19,7 +19,7 @@
                 
                 <Button id="_IDGenButton6" icon="sap-icon://arrow-right" class="right"></Button>
 
-                <Button id="_IDGenButton7"  text="Request for Quotation" width="30%" class="FS" ></Button>
+                <Button id="_IDGenButton7" icon="sap-icon://email" text="Request for Quotation" width="30%" class="FS" press="requestQuotation"></Button>
 
                 <Button id="_IDGenButton8"  text="Compare Request for Quotation" width="30%" class="voy"></Button>
                 <Button id="_IDGenButton9" icon="sap-icon://arrow-right" class="right"></Button>

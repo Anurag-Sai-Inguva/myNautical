@@ -1,6 +1,6 @@
 <mvc:View xmlns:tnt="sap.tnt" xmlns:cards="sap.f.cards"
 xmlns:form="sap.ui.layout.form"
- controllerName="nauticalfe.controller.View1"
+ controllerName="nauticalfe.controller.View3"
     xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
 
     <!--scrollbar added-->
@@ -9,19 +9,13 @@ xmlns:form="sap.ui.layout.form"
 		width="100%"
 		vertical="true"
 		focusable="true">
- 
 
-
-
-  <tnt:ToolHeader id="header2"><Text id="link2" text="Freight Simulator"></Text></tnt:ToolHeader>
- 
-
-  
+  <tnt:ToolHeader id="header2"><Text id="link2" text="Freight Simulator"></Text></tnt:ToolHeader>  
   <tnt:ToolHeader id="header3"><Text id="text31" text="Freight(Per TON)" class="freighttxt"></Text></tnt:ToolHeader>
 <tnt:ToolHeader id="_IDGenToolHeader1" class="freightback" >
    <FlexBox id="_IDGenFlexBox1" alignItems="Center">
     <Label id="_IDGenLabel1" text="Proposed Freight Cost:" class="freighttxt"></Label>
-    <Input id="inputProposedFreightCost"></Input>
+    <Input id="inputProposedFreightCost" liveChange="perTonChanges"></Input>
     <Label id="_IDGenLabel2" text="Total Cost:" class="freighttxt"></Label>
     <Input id="inputTotalCost"></Input>
 
@@ -42,7 +36,7 @@ xmlns:form="sap.ui.layout.form"
              <Text id="text4" text="Cargo Size"/>
            </Column>
            <Column id="heading5" >
-             <Text id="text5" text="Frieght cost"/>
+             <Text id="text5" text="Freight cost"/>
            </Column>
            <Column id="heading6" >
              <Text id="text6" text="Other Cost"/>
@@ -56,14 +50,11 @@ xmlns:form="sap.ui.layout.form"
            <ColumnListItem id="coloumnlist">
              <cells>
               <Input id="field1" value ="{Vdata>Port Name}"/>
-              <Input  id="field2" value ="{Vdata>Distance(NM)}"/>
+              <Input  id="field2" value ="100"/>
               <Input  id="field3" value ="{Vdata>Cargo Size}"/>
               <Input  id="field4" value ="{Vdata>Freight Cost}"/>
               <Input  id="field5" value ="{Vdata>Other Cost}"/>
                <Input id="field6" value ="{Vdata>Total Projected Cost per Port}"/>
-              
-              
-              
              </cells>
              
            </ColumnListItem>
@@ -82,7 +73,7 @@ xmlns:form="sap.ui.layout.form"
     </FlexBox>
     </tnt:ToolHeader>
     <FlexBox id="_IDGenFlexBox22">
-    <Table id="table1" items="{Vdata>/freightData2}" growing="true" growingThreshold="10"  >
+    <Table id="table1" items="{Vdata>/freightData2}" growing="true" growingThreshold="10">
           <columns>
            <Column id="heading11" >
              <Text id="text11" text="Port Name"/>
@@ -113,14 +104,9 @@ xmlns:form="sap.ui.layout.form"
               <Input id="field23" value ="{Vdata>Cargo Size}"/>
               <Input id="field24" value ="{Vdata>Freight Cost}"/>
               <Input id="field25" value ="{Vdata>Other Cost}"/>
-               <Input id="field26" value ="{Vdata>Total Projected Cost per Port}"/>
-              
-              
-              
+               <Input id="field26" value ="{Vdata>Total Projected Cost per Port}"/>              
              </cells>
-             
            </ColumnListItem>
-           
           </items>
         </Table>
 

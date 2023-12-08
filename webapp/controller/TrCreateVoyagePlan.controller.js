@@ -11,7 +11,6 @@ sap.ui.define([
         return Controller.extend("nauticalfe.controller.TrCreateVoyagePlan", {
             onInit: function () {
               
-               
             },
     
             handleNav: function(evt) {

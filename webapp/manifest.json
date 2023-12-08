@@ -168,9 +168,15 @@
           "target": [
             "TargetTrCreateVoyagePlan"
           ]
-        }
-        
+        },
+        { 
+          "name":"TrRequestQuotation",
+          "pattern": "RequestQuotation",
+          "target":[
+            "TrRequestQuotation"
+          ]
 
+        }
       ],
       "targets": {
         "TargetView1": {
@@ -256,8 +262,14 @@
           "clearControlAggregation": false,
           "viewId": "TrCreateVoyagePlan",
           "viewName": "TrCreateVoyagePlan"
+        },
+        "TrRequestQuotation": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "TrRequestQuotation",
+          "viewName": "TrRequestQuotation"
         }
-        
       }
     },
     "rootView": {

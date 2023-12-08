@@ -15,23 +15,12 @@ sap.ui.define([
       // oView.byId("_IDGenButton1").attachPress(function () {
       //   alert("Create Voyage button clicked!");
       // });
-      
-      oView.byId("_IDGenButton2").attachPress(function () {
-        alert("Freight Simulator button clicked!");
-      });
-
-      oView.byId("_IDGenButton3").attachPress(function () {
-        alert("Calculate button clicked!");
-      });
-
-      oView.byId("_IDGenButton4").attachPress(function () {
-        alert("Refresh button clicked!");
-      });
     },
-    onCreateVoyage: function() {
+    frieghtnavigate:function(){
       const oRouter = this.getOwnerComponent().getRouter();
       oRouter.navTo("RouteView3");
-  },
+    },
+    
     
   });
 });

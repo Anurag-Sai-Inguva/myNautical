@@ -15,7 +15,11 @@ sap.ui.define(
       VoyageOptions:function(){
         const oRouter = this.getOwnerComponent().getRouter();
         oRouter.navTo("TrVoyageOptions")
-}
+      },
+      requestQuotation:function(){
+        const oRouter = this.getOwnerComponent().getRouter();
+        oRouter.navTo("TrRequestQuotation")
+      }
 
       });
     }

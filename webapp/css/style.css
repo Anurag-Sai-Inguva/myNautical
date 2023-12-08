@@ -328,8 +328,7 @@
 heading{
     margin-top: 80px;
     margin-left: 20px;
-    font-size: 15px;
-    
+    font-size: 15px; 
 }
 
 
@@ -346,4 +345,186 @@ font-size: small;
 
 .second_table{
     margin-left: 25% !important;
+}
+
+
+
+/* voyage operations */
+.VoyageOperations{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+ 
+.HeadOptions{
+    margin-top: 70px;
+    font-size: 17px;
+    font-weight:bold;
+    margin-bottom:1%;
+    margin-left: 20px;
+}
+ 
+ 
+.buttonSpacing{
+    margin-bottom: 2%;
+    height: 5px;
+    margin-left: 50px;
+}
+ 
+/* Voyage data Plan page  */
+/* .voyageplannavigate{
+    border:none;
+    outline: none;
+} */
+ 
+ 
+/* Used for headings in pages created by anurag */
+.detailsheading{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight:bold;
+    margin-left: 20px;
+}
+ 
+ 
+/* Create Voyage(Plan) Page */
+.Row1{
+    margin-left: 5%;
+    margin-top : 20px;
+}
+ 
+.Row2{
+    margin-left: 4%;
+    margin-top : 20px;
+}
+ 
+.Row3{
+    margin-left: 4%;
+    margin-top : 20px;
+}
+ 
+.Row4{
+    margin-left: 4%;
+    margin-top : 20px;
+}
+
+.vesselOperations{
+    margin-top: 30px;
+    margin-left: 90px;
+}
+ 
+.navbar{
+    color: red;
+    font-size: 17px;
+}
+ 
+.vesselRefDetails{
+    margin-top: 1%;
+    margin-left: 2%;
+    border-color: 3px solid black;
+}
+ 
+.heading{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+ 
+.heading2{
+    margin-top: 30px;
+    margin-left: 600px;
+    font-size: 15px;
+    font-weight: bold;
+ 
+}
+ 
+.commercialbiddingdetails{
+    margin-top: 2%;
+    margin-left: 20%;
+}
+ 
+.techbutton{
+    margin-left: 10px;
+    width: 10px;
+}
+.commercialbutton{
+    margin-left: 610px;
+    width: 10px;
+    margin-top: -50px;
+}
+ 
+
+.techdropdown{
+    margin-left:350px;
+    margin-top: -20px;
+}
+ 
+.longText{
+    height: 500px !important;
+    margin-left: 5%;
+}
+ 
+.fclabel{
+    direction: ltr !important;
+}
+ 
+/* Vessel Plan/Actual page */
+.planOperations{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+ 
+.inputfields{
+    margin-top: -60px;
+}
+ 
+.infoinputs{
+    margin-left: 30px;
+}
+
+/* Footer part of create voyage plan page */
+.footerpagebuttons{
+    margin-bottom: 2%;
+    height: 5px;
+    margin-left: 20px;
+}
+.footercostplanbutton{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.footeractualplanbutton{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.costplantables{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.footerheading{
+    margin-top: 60px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Request for quotation page */
+.quoteoptions{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.customRequiredLabel:before {
+    content: "* ";
+    color: red; 
+ }
+
+.optionsspacing{
+    margin-bottom: 5px;
+}
+
+.dropdownlabel{
+    color:red;
 }

@@ -131,61 +131,37 @@
     {
         "Port Name": "Mumbai",
         "Distance(NM)": "1625.00",
-        "Cargo Size": "0.000",
+        "Cargo Size": "1000.000",
         "Freight Cost": "0.000",
         "Other Cost": "10",
         "Total Projected Cost per Port": ""
     },
     {
-        "Port Name": "Mumbai",
+        "Port Name": "Vishakapatanam",
         "Distance(NM)": "1625.00",
-        "Cargo Size": "0.000",
+        "Cargo Size": "1000.000",
         "Freight Cost": "0.000",
         "Other Cost": "10",
-        "Total Projected Cost per Port": ""
-    },
-    {
-        "Port Name": "",
-        "Distance(NM)": "",
-        "Cargo Size": "",
-        "Freight Cost": "",
-        "Other Cost": "",
         "Total Projected Cost per Port": ""
     }
-   
-   
-   
-   
 ],
 "freightData2": [
     {
         "Port Name": "Mumbai",
         "Distance(NM)": "1625.00",
-        "Cargo Size": "0.000",
-        "Freight Cost": "0.000",
+        "Cargo Size": "1000.000",
+        "Freight Cost": "1000.000",
         "Other Cost": "10",
         "Total Projected Cost per Port": ""
     },
     {
-        "Port Name": "Mumbai",
+        "Port Name": "Vishakapatanam",
         "Distance(NM)": "1625.00",
-        "Cargo Size": "0.000",
-        "Freight Cost": "0.000",
+        "Cargo Size": "1000.000",
+        "Freight Cost": "1000.000",
         "Other Cost": "10",
-        "Total Projected Cost per Port": ""
-    },
-    {
-        "Port Name": "",
-        "Distance(NM)": "",
-        "Cargo Size": "",
-        "Freight Cost": "",
-        "Other Cost": "",
         "Total Projected Cost per Port": ""
     }
-   
-   
-   
-   
 ],
 "TechnicalBidding":[
     {
@@ -208,8 +184,31 @@
     {
         "Heads":"FREIGHT"
     }
-]  
-
- 
-           
+],
+"CharteringNumbers":[
+    {
+        "charreqnum":"4000001"
+    },
+    {
+        "charreqnum":"4000002"
+    },   
+    {
+        "charreqnum":"4000003"
+    },    
+    {
+        "charreqnum":"4000004"
+    },
+    {
+        "charreqnum":"4000005"
+    },
+    {
+        "charreqnum":"4000006"
+    },
+    {
+        "charreqnum":"4000007"
+    },
+    {
+        "charreqnum":"4000008"
+    }
+]         
 }
