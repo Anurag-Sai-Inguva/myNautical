@@ -14,7 +14,7 @@ xmlns:form="sap.ui.layout.form"
         <Button id="Button2" text="Refresh" width="100px" class="planNav"/>
         <Button id="Button3" text="Frieght Simulator" width="150px" class="planNav"/>
         <Button id="Button4" text="Copy" width="100px" class="planNav"/>
-        <Select id="Select1" width="100px" >
+        <Select id="Select1" width="100px">
             <items>
                 <core:Item id="_IDGenItem1" text="more"/>
             </items>

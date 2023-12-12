@@ -7,7 +7,7 @@ xmlns:form="sap.ui.layout.form"
         <Bar id="_IDGenBar1">
         <contentLeft>
             <Button id="_IDGenButton1" text="Submit Quotation"></Button>
-	        <Button id="button" icon="sap-icon://dropdown" iconFirst="false" text="More" press="onPress" ariaHasPopup="Menu"/>
+	        <Button id="button" icon="sap-icon://slim-arrow-down" iconFirst="false" text="More" press="onPress" ariaHasPopup="Menu"/>
         </contentLeft>
         </Bar>
             <Text id="_IDGenText1" text="Bidding Details" class="heading "></Text>

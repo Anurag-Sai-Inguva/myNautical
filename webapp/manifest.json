@@ -175,8 +175,16 @@
           "target":[
             "TrRequestQuotation"
           ]
-
+        },
+        { 
+          "name":"MastPortUpload",
+          "pattern": "MastPortUpload",
+          "target":[
+            "MastPortUpload"
+          ]
         }
+        
+        
       ],
       "targets": {
         "TargetView1": {
@@ -269,6 +277,13 @@
           "clearControlAggregation": false,
           "viewId": "TrRequestQuotation",
           "viewName": "TrRequestQuotation"
+        },
+        "MastPortUpload": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "MastPortUpload",
+          "viewName": "MastPortUpload"
         }
       }
     },

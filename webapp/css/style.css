@@ -528,3 +528,15 @@ font-size: small;
 .dropdownlabel{
     color:red;
 }
+
+.headerOfPage{
+    background-color:black;
+    height: 40px;
+    width: auto;
+}
+
+/* Master data pages css */
+.masterFileUpload{
+    margin-left: 250px;
+    margin-top: 90px;
+}

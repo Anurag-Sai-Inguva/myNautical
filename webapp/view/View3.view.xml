@@ -51,9 +51,9 @@ xmlns:form="sap.ui.layout.form"
              <cells>
               <Input id="field1" value ="{Vdata>Port Name}"/>
               <Input  id="field2" value ="100"/>
-              <Input  id="field3" value ="{Vdata>Cargo Size}"/>
+              <Input  id="field3" value ="{Vdata>/freightData1/0/Cargo Size}"/>
               <Input  id="field4" value ="{Vdata>Freight Cost}"/>
-              <Input  id="field5" value ="{Vdata>Other Cost}"/>
+              <Input  id="field5" value =""/>
                <Input id="field6" value ="{Vdata>Total Projected Cost per Port}"/>
              </cells>
              
@@ -62,11 +62,11 @@ xmlns:form="sap.ui.layout.form"
         </Table>
 
     </FlexBox>
-<tnt:ToolHeader id="header4"><Text id="link4" text="Freight(Lumpsum )" class="freighttxt"></Text></tnt:ToolHeader>
+<tnt:ToolHeader id="header4"><Text id="text32" text="Freight(Per TON)" class="freighttxt"></Text></tnt:ToolHeader>
 <tnt:ToolHeader id="_IDGenToolHeader2" class="freightback" >
    <FlexBox id="_IDGenFlexBox21" alignItems="Center">
     <Label id="_IDGenLabel11" text="Proposed Freight Cost:" class="freighttxt"></Label>
-    <Input id="inputProposedFreightCost1"></Input>
+    <Input id="inputProposedFreightCost1" liveChange="perLumpsum"></Input>
     <Label id="_IDGenLabel22" text="Total Cost:" class="freighttxt"></Label>
     <Input id="inputTotalCost1"></Input>
 
@@ -109,8 +109,54 @@ xmlns:form="sap.ui.layout.form"
            </ColumnListItem>
           </items>
         </Table>
+    </FlexBox>
+<tnt:ToolHeader class="header3"><Text text="Freight(TON/NM)" class="freighttxt"></Text></tnt:ToolHeader>
+<tnt:ToolHeader id="_IDGenToolHeader3" class="freightback" >
+   <FlexBox id="_IDGenFlexBox23" alignItems="Center">
+    <Label id="_IDGenLabel12" text="Proposed Freight Cost:" class="freighttxt"></Label>
+    <Input id="inputProposedFreightCost2" liveChange="perNauticalChange"></Input>
+    <Label id="_IDGenLabel23" text="Total Cost:" class="freighttxt"></Label>
+    <Input id="inputTotalCost2"></Input>
 
     </FlexBox>
-    
+    </tnt:ToolHeader>
+    <FlexBox>
+    <Table id="table2" items="{Vdata>/freightData2}" growing="true" growingThreshold="10">
+          <columns>
+           <Column >
+             <Text id="text18" text="Port Name"/>
+           </Column>
+           <Column >
+             <Text id="text19" text="Distance(NM)"/>
+           </Column>
+           
+           <Column>
+             <Text id="text20" text="Cargo Size"/>
+           </Column>
+           <Column>
+             <Text id="text21" text="Frieght cost"/>
+           </Column>
+           <Column  >
+             <Text id="text22" text="Other Cost"/>
+           </Column>
+           <Column>
+             <Text id="text23" text="total Projected Cost Per Port"/>
+           </Column>
+            </columns>
+
+         <items>
+           <ColumnListItem id="coloumnlist2">
+             <cells>
+              <Input id="field27" value ="{Vdata>Port Name}"/>
+              <Input id="field28" value ="{Vdata>Distance(NM)}"/>
+              <Input id="field29" value ="{Vdata>Cargo Size}"/>
+              <Input id="field20" value ="{Vdata>Freight Cost}"/>
+              <Input id="field31" value ="{Vdata>Other Cost}"/>
+               <Input id="field32" value ="{Vdata>Total Projected Cost per Port}"/>              
+             </cells>
+           </ColumnListItem>
+          </items>
+        </Table>
+    </FlexBox>
     	</ScrollContainer>
 </mvc:View>
