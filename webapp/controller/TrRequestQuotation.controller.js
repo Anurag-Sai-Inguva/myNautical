@@ -30,7 +30,6 @@ sap.ui.define([
             onPress: function () {
 				var oView = this.getView(),
 					oButton = oView.byId("button");
-
 				if (!this._oMenuFragment) {
 					this._oMenuFragment = Fragment.load({
 						name: "nauticalfe.fragments.TrQuoteDropDown",

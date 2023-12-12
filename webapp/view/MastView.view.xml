@@ -35,10 +35,10 @@
                 <Button id="_IDGenButton26"  text="Port Master" width="22%" class="five"></Button>
                 <Button id="_IDGenButton27"  text="Port Upd" width="22%" class="one" press="portUpload"></Button>
                 <Button id="_IDGenButton28"  icon="sap-icon://arrow-right" class="two"></Button> 
-                <Button id="_IDGenButton29"  text="Country Master Upd" width="22%" class="three"></Button>
+                <Button id="_IDGenButton29"  text="Country Master Upd" width="22%" class="three" press="countryMasterUpload"></Button>
                 <Button id="_IDGenButton30"  icon="sap-icon://arrow-right" class="four"></Button> 
-                <Button id="_IDGenButton31"  text="Country Master" width="22%" class="five"></Button>
-                <Button id="_IDGenButton32"  text="API URL" width="22%" class="one"></Button>
+                <Button id="_IDGenButton31"  text="Country Master" width="22%" class="five" press="countryMaster"></Button>
+                <Button id="_IDGenButton32"  text="API URL" width="22%" class="one" press="apiurl"></Button>
                 <Button id="_IDGenButton33"  icon="sap-icon://arrow-right" class="two"></Button>
                 <Button id="_IDGenButton34"  text="Marine Path Upd" width="22%" class="three"></Button>
                 <Button id="_IDGenButton35"  icon="sap-icon://arrow-right" class="four"></Button>

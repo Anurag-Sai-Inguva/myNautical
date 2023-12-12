@@ -2,7 +2,6 @@ sap.ui.define([
     "sap/ui/core/mvc/Controller",
     "sap/ui/core/Fragment",
     "sap/ui/core/routing/History"
-
 ],
     /**
      * @param {typeof sap.ui.core.mvc.Controller} Controller
@@ -10,7 +9,7 @@ sap.ui.define([
     function (Controller,Fragment,History) {
         "use strict";
  
-        return Controller.extend("nauticalfe.controller.MastPortUpload", {
+        return Controller.extend("nauticalfe.controller.MastCountryMasterUpload", {
             onInit: function () {
 
             },
@@ -41,7 +40,7 @@ sap.ui.define([
             onPress: function () {
 				var oView = this.getView(),
 					oButton = oView.byId("button");
-				if (!this._oMenuFragment) {
+				    if (!this._oMenuFragment) {
 					this._oMenuFragment = Fragment.load({
 						name: "nauticalfe.fragments.MastUpdDropDown",
                         id: oView.getId(),

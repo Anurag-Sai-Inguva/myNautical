@@ -182,8 +182,28 @@
           "target":[
             "MastPortUpload"
           ]
+        },
+        { 
+          "name":"MastCountryMasterUpload",
+          "pattern": "MastCountryMasterUpload",
+          "target":[
+            "MastCountryMasterUpload"
+          ]
+        },
+        { 
+          "name":"MastCountryMaster",
+          "pattern": "MastCountryMaster",
+          "target":[
+            "MastCountryMaster"
+          ]
+        },
+        { 
+          "name":"MastApiUrl",
+          "pattern": "MastApiUrl",
+          "target":[
+            "MastApiUrl"
+          ]
         }
-        
         
       ],
       "targets": {
@@ -284,6 +304,27 @@
           "clearControlAggregation": false,
           "viewId": "MastPortUpload",
           "viewName": "MastPortUpload"
+        },
+        "MastCountryMasterUpload":{
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "MastCountryMasterUpload",
+          "viewName": "MastCountryMasterUpload" 
+        },
+        "MastCountryMaster":{
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "MastCountryMaster",
+          "viewName": "MastCountryMaster" 
+        },
+        "MastApiUrl":{
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "MastApiUrl",
+          "viewName": "MastApiUrl" 
         }
       }
     },
